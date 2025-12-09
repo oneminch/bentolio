@@ -44,7 +44,7 @@
     "@fontsource/space-grotesk": "^5.2.10",
     "@iconify-json/ph": "^1.2.2",
     "@iconify-json/simple-icons": "^1.2.60",
-    "@nuxt/eslint": "1.10.0",
+    "@nuxt/eslint": "1.11.0",
     "@nuxt/icon": "2.1.0",
     "@nuxtjs/color-mode": "^3.5.2",
     "@tailwindcss/vite": "^4.1.17",
