@@ -1,6 +1,6 @@
 {
   "name": "@minch/bentolio",
-  "version": "0.9.23",
+  "version": "0.9.24",
   "description": "A minimal portfolio template and layer built with Nuxt 4, Tailwind CSS 4, and GSAP.",
   "type": "module",
   "repository": "github:oneminch/bentolio",
@@ -58,5 +58,5 @@
     "vue": "^3.5.25",
     "vue-router": "^4.6.3"
   },
-  "packageManager": "pnpm@10.18.3"
+  "packageManager": "pnpm@10.25.0"
 }
