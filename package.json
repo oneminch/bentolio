@@ -1,6 +1,6 @@
 {
   "name": "@minch/bentolio",
-  "version": "0.9.31",
+  "version": "0.9.32",
   "description": "A minimal portfolio template and layer built with Nuxt 4, Tailwind CSS 4, and GSAP.",
   "type": "module",
   "repository": "github:oneminch/bentolio",
@@ -43,19 +43,19 @@
   "dependencies": {
     "@fontsource/space-grotesk": "^5.2.10",
     "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.68",
+    "@iconify-json/simple-icons": "^1.2.70",
     "@nuxt/eslint": "1.12.1",
     "@nuxt/icon": "2.1.1",
     "@nuxtjs/color-mode": "^3.5.2",
     "@tailwindcss/vite": "^4.1.18",
-    "@unhead/vue": "^2.1.2",
+    "@unhead/vue": "^2.1.4",
     "eslint": "^9.39.2",
     "gsap": "^3.14.2",
-    "nuxt": "^4.3.0",
+    "nuxt": "^4.3.1",
     "nuxt-og-image": "5.1.13",
     "tailwindcss": "^4.1.18",
     "unstorage": "^1.17.4",
-    "vue": "^3.5.27",
+    "vue": "^3.5.28",
     "vue-router": "^4.6.4"
   },
   "packageManager": "pnpm@10.25.0"
