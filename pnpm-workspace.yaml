@@ -3,3 +3,6 @@ onlyBuiltDependencies:
   - '@tailwindcss/oxide'
   - esbuild
   - unrs-resolver
+
+overrides:
+  serialize-javascript@<=7.0.2: '>=7.0.3'
