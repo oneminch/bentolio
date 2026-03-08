@@ -43,7 +43,7 @@ All page content lives in `app/app.config.ts` and is fully typed (see `app/utils
 // app/app.config.ts (excerpt)
 export default defineAppConfig({
   style: {
-    roundedItems: false
+    roundedStyle: "rounded-medium"
   },
   portfolio: {
     name: "Your Name",
@@ -52,7 +52,7 @@ export default defineAppConfig({
     avatar: "/profile.jpg",
     bio: {
       // Prefer html for rich content; fallback to text if html is empty
-      html: "I'm a <span class='font-bold text-primary'>Full‑Stack</span> Dev...",
+      html: "I'm a <span class='font-bold text-theme'>Full‑Stack</span> Dev...",
       text: "I'm a Full‑Stack Dev..."
     },
     socials: {
@@ -90,9 +90,9 @@ Supported social keys by default: `"X" | "LinkedIn" | "Bluesky" | "GitHub"`. To 
 ```css
 @import "@minch/bentolio/tailwind";
 
-/*  Change `--color-primary` to customize your accent. */
+/*  Change `--color-theme` to customize your accent. */
 @theme {
-  --color-primary: var(--color-lime-500);
+  --color-theme: var(--color-lime-500);
 }
 ```
 

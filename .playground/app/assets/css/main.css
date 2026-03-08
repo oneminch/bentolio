@@ -1,5 +1,5 @@
-@import "@minch/bentolio/tailwind";
+@import '@minch/bentolio/tailwind';
 
 @theme {
-  --color-primary: var(--color-green-500);
+	/* --color-theme: var(--color-avocado); */
 }

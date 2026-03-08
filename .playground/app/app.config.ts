@@ -1,53 +1,91 @@
 export default defineAppConfig({
   style: {
-    roundedItems: false
+    roundedStyle: 'rounded-medium'
   },
   portfolio: {
-    name: "Dawit",
-    subtitle: "I Craft Delightful Web Apps",
-    // company: "[COMPANY]",
-    avatar: "/profile.jpg",
-    customOgImage: "/og-image.png",
+    name: 'Dawit',
+    subtitle: 'I Craft Delightful Web Apps',
+    // company: '[COMPANY]',
+    avatar: '/profile.jpg',
+    customOgImage: '/og-image.png',
     bio: {
-      html: "I'm a Full-Stack Problem-Solver specializing in <span class='font-bold text-primary'>Vue</span>, <span class='font-bold text-primary'>Nuxt</span>, <span class='font-bold text-primary'>Tailwind CSS</span>, and <span class='font-bold text-primary'>Node</span>. I sometimes write articles on various software development topics. I'm also a hobbyist photographer.",
-      text: "I'm a Full-Stack Problem-Solver Specializing in Vue, Nuxt, Tailwind CSS and Node.js. I Sometimes Write Articles on Various Web Dev Topics. I'm Also a Hobbyist Photographer."
+      html: 'I\'m a Full-Stack Problem-Solver specializing in <span class=\'font-bold text-theme\'>Vue</span>, <span class=\'font-bold text-theme\'>Nuxt</span>, <span class=\'font-bold text-theme\'>Tailwind CSS</span>, and <span class=\'font-bold text-theme\'>Node</span>. I sometimes write articles on various software development topics. I\'m also a hobbyist photographer.',
+      text: 'I\'m a Full-Stack Problem-Solver Specializing in Vue, Nuxt, Tailwind CSS and Node.js. I Sometimes Write Articles on Various Web Dev Topics. I\'m Also a Hobbyist Photographer.'
     },
     socials: {
       Bluesky: {
-        socialMediaIcon: "simple-icons:bluesky",
-        profileUrl: "https://bsky.app/profile/minch.dev",
-        socialMediaBgColor: "bg-blue-500!",
-        socialMediaBorderColor: "border-blue-500!",
-        socialMediaTextColor: "text-white!"
+        profileUrl: 'https://bsky.app/profile/minch.dev'
       },
       GitHub: {
-        socialMediaIcon: "simple-icons:github",
-        profileUrl: "https://x.com/oneminch",
-        socialMediaBgColor: "bg-black!",
-        socialMediaBorderColor: "border-black!",
-        socialMediaTextColor: "text-white!"
+        profileUrl: 'https://github.com/oneminch'
       },
       X: {
-        socialMediaIcon: "simple-icons:x",
-        profileUrl: "https://x.com/oneminch",
-        socialMediaBgColor: "bg-black!",
-        socialMediaBorderColor: "border-black!",
-        socialMediaTextColor: "text-white!"
+        profileUrl: 'https://x.com/oneminch'
       },
       LinkedIn: {
-        socialMediaIcon: "simple-icons:linkedin",
-        profileUrl: "https://linkedin.com/in/oneminch",
-        socialMediaBgColor: "bg-blue-600!",
-        socialMediaBorderColor: "border-blue-600!",
-        socialMediaTextColor: "text-white!"
+        profileUrl: 'https://linkedin.com/in/oneminch'
       }
     },
+    projects: [
+      {
+        iconUrl: 'https://icons.encryptedlist.xyz/logo.svg',
+        title: 'EncryptedList',
+        description: 'EncryptedList is a website.',
+        repoUrl: 'https://github.com/oneminch/encrypted-list',
+        homepageUrl: 'https://encryptedlist.xyz/'
+      },
+      {
+        iconUrl: 'https://nuxt-feedback.minch.dev/logo.svg',
+        title: 'Nuxt Feedback',
+        description: 'Nuxt Feedback is a Nuxt module.',
+        repoUrl: 'https://github.com/oneminch/nuxt-feedback',
+        homepageUrl: 'https://nuxt-feedback.minch.dev/'
+      },
+      {
+        iconUrl: 'https://nuxt-basis.minch.dev/logo.svg',
+        title: 'Nuxt Basis',
+        description: 'Nuxt Basis is a Nuxt layer and template.',
+        repoUrl: 'https://github.com/oneminch/nuxt-basis',
+        homepageUrl: 'https://nuxt-basis.minch.dev/'
+      },
+      {
+        iconUrl: 'https://icons.encryptedlist.xyz/logo.svg',
+        title: 'EncryptedList',
+        repoUrl: 'https://github.com/oneminch/encrypted-list',
+        homepageUrl: 'https://encryptedlist.xyz/'
+      },
+      {
+        iconUrl: 'https://nuxt-feedback.minch.dev/logo.svg',
+        title: 'Nuxtastic',
+        homepageUrl: 'https://nuxt-feedback.minch.dev/'
+      },
+      {
+        iconUrl: 'https://nuxt-basis.minch.dev/logo.svg',
+        title: 'Nuxtables',
+        description: 'Nuxt Basis is a Nuxt layer and template.',
+        homepageUrl: 'https://nuxt-basis.minch.dev/'
+      },
+      {
+        iconUrl: 'https://icons.encryptedlist.xyz/logo.svg',
+        title: 'Bentolio',
+        description: 'EncryptedList is a website.',
+        repoUrl: 'https://github.com/oneminch/encrypted-list',
+        homepageUrl: 'https://encryptedlist.xyz/'
+      },
+      {
+        iconUrl: 'https://nuxt-feedback.minch.dev/logo.svg',
+        title: 'Deadlines',
+        description: 'Nuxt Feedback is a Nuxt module.',
+        repoUrl: 'https://github.com/oneminch/nuxt-feedback',
+        homepageUrl: 'https://nuxt-feedback.minch.dev/'
+      }
+    ],
     cta: {
-      contact: "[firstname]@example.com",
-      location: "Planet Earth",
+      contact: '[firstname]@example.com',
+      location: 'Planet Earth',
       link: {
-        url: "https://github.com/oneminch/bentolio",
-        label: "Source Code"
+        url: 'https://github.com/oneminch/bentolio',
+        label: 'Source Code'
       }
     }
   }
