@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/no-v-html -->
 <script lang="ts" setup>
 	const {
 		portfolio: { bio },
