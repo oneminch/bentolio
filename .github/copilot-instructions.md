@@ -13,10 +13,10 @@ Bentolio is a minimal portfolio template and Nuxt layer built with Nuxt 4, Tailw
 
 - **Tailwind CSS 4**: Entry point is `app/assets/css/tailwind.css`
 - **Rounded style utility**: Configurable via `style.roundedStyle` in app.config (e.g., "rounded-medium")
-- **Primary color customization**: Users override `--color-primary` CSS variable in their `tailwind.css`:
+- **Primary color customization**: Users override `--color-theme` CSS variable in their `tailwind.css`:
   ```css
   @theme {
-    --color-primary: var(--color-lime-500);
+    --color-theme: var(--color-lime-500);
   }
   ```
 - **Dark mode**: Implemented via `@nuxtjs/color-mode` with class strategy

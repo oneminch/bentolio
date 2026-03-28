@@ -1,8 +1,10 @@
 onlyBuiltDependencies:
   - '@parcel/watcher'
   - '@tailwindcss/oxide'
+  - better-sqlite3
   - esbuild
   - unrs-resolver
+  - vue-demi
 
 overrides:
   serialize-javascript@<=7.0.2: '>=7.0.3'

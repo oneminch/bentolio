@@ -1,5 +1,15 @@
-@import "@minch/bentolio/tailwind";
+@import '@minch/bentolio/tailwind';
 
 @theme {
-  --color-primary: var(--color-green-500);
+	--color-theme: var(--color-lime-600);
+}
+
+@utility rounded-tiny {
+	@apply rounded-sm;
+}
+@utility rounded-medium {
+	@apply rounded-lg;
+}
+@utility rounded-super {
+	@apply rounded-2xl;
 }

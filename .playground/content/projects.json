@@ -1,0 +1,81 @@
+{
+	"projects": [
+		{
+			"iconUrl": "https://icons.encryptedlist.xyz/logo.svg",
+			"title": "EncryptedList",
+			"description": "EncryptedList is a website.",
+			"repoUrl": "https://github.com/oneminch/encrypted-list",
+			"homepageUrl": "https://encryptedlist.xyz/"
+		},
+		{
+			"iconUrl": "https://nuxt-feedback.minch.dev/logo.svg",
+			"title": "Nuxt Feedback",
+			"description": "Nuxt Feedback is a Nuxt module.",
+			"repoUrl": "https://github.com/oneminch/nuxt-feedback",
+			"homepageUrl": "https://nuxt-feedback.minch.dev/"
+		},
+		{
+			"iconUrl": "https://nuxt-basis.minch.dev/logo.svg",
+			"title": "Nuxt Basis",
+			"description": "Nuxt Basis is a Nuxt layer and template.",
+			"repoUrl": "https://github.com/oneminch/nuxt-basis",
+			"homepageUrl": "https://nuxt-basis.minch.dev/"
+		},
+		{
+			"iconUrl": "https://icons.encryptedlist.xyz/logo.svg",
+			"title": "EncryptedList",
+			"description": "EncryptedList is a website.",
+			"repoUrl": "https://github.com/oneminch/encrypted-list",
+			"homepageUrl": "https://encryptedlist.xyz/"
+		},
+		{
+			"iconUrl": "https://nuxt-feedback.minch.dev/logo.svg",
+			"title": "Nuxt Feedback",
+			"description": "Nuxt Feedback is a Nuxt module.",
+			"repoUrl": "https://github.com/oneminch/nuxt-feedback",
+			"homepageUrl": "https://nuxt-feedback.minch.dev/"
+		},
+		{
+			"iconUrl": "https://nuxt-basis.minch.dev/logo.svg",
+			"title": "Nuxt Basis",
+			"description": "Nuxt Basis is a Nuxt layer and template.",
+			"repoUrl": "https://github.com/oneminch/nuxt-basis",
+			"homepageUrl": "https://nuxt-basis.minch.dev/"
+		},
+		{
+			"iconUrl": "https://icons.encryptedlist.xyz/logo.svg",
+			"title": "EncryptedList",
+			"description": "EncryptedList is a website.",
+			"repoUrl": "https://github.com/oneminch/encrypted-list",
+			"homepageUrl": "https://encryptedlist.xyz/"
+		},
+		{
+			"iconUrl": "https://nuxt-feedback.minch.dev/logo.svg",
+			"title": "Nuxt Feedback",
+			"description": "Nuxt Feedback is a Nuxt module.",
+			"repoUrl": "https://github.com/oneminch/nuxt-feedback",
+			"homepageUrl": "https://nuxt-feedback.minch.dev/"
+		},
+		{
+			"iconUrl": "https://nuxt-basis.minch.dev/logo.svg",
+			"title": "Nuxt Basis",
+			"description": "Nuxt Basis is a Nuxt layer and template.",
+			"repoUrl": "https://github.com/oneminch/nuxt-basis",
+			"homepageUrl": "https://nuxt-basis.minch.dev/"
+		},
+		{
+			"iconUrl": "https://icons.encryptedlist.xyz/logo.svg",
+			"title": "EncryptedList",
+			"description": "EncryptedList is a website.",
+			"repoUrl": "https://github.com/oneminch/encrypted-list",
+			"homepageUrl": "https://encryptedlist.xyz/"
+		},
+		{
+			"iconUrl": "https://nuxt-feedback.minch.dev/logo.svg",
+			"title": "Nuxt Feedback",
+			"description": "Nuxt Feedback is a Nuxt module.",
+			"repoUrl": "https://github.com/oneminch/nuxt-feedback",
+			"homepageUrl": "https://nuxt-feedback.minch.dev/"
+		}
+	]
+}

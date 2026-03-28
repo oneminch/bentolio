@@ -1,62 +1,75 @@
 {
-  "name": "@minch/bentolio",
-  "version": "0.9.33",
-  "description": "A minimal portfolio template and layer built with Nuxt 4, Tailwind CSS 4, and GSAP.",
-  "type": "module",
-  "repository": "github:oneminch/bentolio",
-  "homepage": "https://github.com/oneminch/bentolio#readme",
-  "license": "MIT",
-  "author": {
-    "name": "Dawit",
-    "url": "https://bsky.app/profile/minch.dev"
-  },
-  "main": "./nuxt.config.ts",
-  "files": [
-    "nuxt.config.ts",
-    "app/**/*",
-    "public/**/*",
-    ".env.example",
-    "pnpm-workspace.yaml",
-    "eslint.config.mjs",
-    "README.md",
-    "LICENSE"
-  ],
-  "keywords": [
-    "nuxt",
-    "nuxt-layer",
-    "tailwindcss",
-    "gsap"
-  ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org"
-  },
-  "scripts": {
-    "dev": "nuxt dev .playground",
-    "dev:prepare": "nuxt prepare .playground",
-    "prepare": "nuxt prepare",
-    "build": "nuxt build .playground",
-    "generate": "nuxt generate .playground",
-    "preview": "nuxt preview .playground",
-    "lint": "eslint ."
-  },
-  "dependencies": {
-    "@fontsource/space-grotesk": "^5.2.10",
-    "@iconify-json/ph": "^1.2.2",
-    "@iconify-json/simple-icons": "^1.2.72",
-    "@nuxt/eslint": "1.12.1",
-    "@nuxt/icon": "2.1.1",
-    "@nuxtjs/color-mode": "^3.5.2",
-    "@tailwindcss/vite": "^4.2.1",
-    "@unhead/vue": "^2.1.10",
-    "eslint": "^9.39.3",
-    "gsap": "^3.14.2",
-    "nuxt": "^4.3.1",
-    "nuxt-og-image": "5.1.13",
-    "tailwindcss": "^4.2.1",
-    "unstorage": "^1.17.4",
-    "vue": "^3.5.29",
-    "vue-router": "^4.6.4"
-  },
-  "packageManager": "pnpm@10.30.3"
+	"name": "@minch/bentolio",
+	"version": "0.9.33",
+	"description": "A minimal portfolio template and layer built with Nuxt 4, Tailwind CSS 4, and GSAP.",
+	"type": "module",
+	"repository": "github:oneminch/bentolio",
+	"homepage": "https://github.com/oneminch/bentolio#readme",
+	"license": "MIT",
+	"author": {
+		"name": "Dawit",
+		"url": "https://bsky.app/profile/minch.dev"
+	},
+	"main": "./nuxt.config.ts",
+	"files": [
+		"nuxt.config.ts",
+		"app/**/*",
+		"public/**/*",
+		".env.example",
+		"pnpm-workspace.yaml",
+		"eslint.config.mjs",
+		"README.md",
+		"LICENSE"
+	],
+	"keywords": [
+		"nuxt",
+		"nuxt-layer",
+		"tailwindcss",
+		"gsap"
+	],
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org"
+	},
+	"scripts": {
+		"dev": "nuxt dev .playground",
+		"dev:prepare": "nuxt prepare .playground",
+		"prepare": "nuxt prepare",
+		"build": "nuxt build .playground",
+		"generate": "nuxt generate .playground",
+		"preview": "nuxt preview .playground",
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"@fontsource/space-grotesk": "^5.2.10",
+		"@iconify-json/ph": "^1.2.2",
+		"@iconify-json/simple-icons": "^1.2.75",
+		"@nuxt/content": "3.12.0",
+		"@nuxt/eslint": "1.12.1",
+		"@nuxt/icon": "2.1.1",
+		"@nuxtjs/color-mode": "^3.5.2",
+		"@tailwindcss/vite": "^4.2.2",
+		"@unhead/vue": "^2.1.12",
+		"@vueuse/core": "^14.2.1",
+		"better-sqlite3": "^12.8.0",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"eslint": "^9.39.4",
+		"gsap": "^3.14.2",
+		"lucide-vue-next": "^1.0.0",
+		"nuxt": "^4.4.2",
+		"nuxt-og-image": "5.1.13",
+		"reka-ui": "^2.9.2",
+		"shadcn-nuxt": "2.4.3",
+		"tailwind-merge": "^3.5.0",
+		"tailwindcss": "^4.2.2",
+		"unstorage": "^1.17.4",
+		"vaul-vue": "^0.4.1",
+		"vue": "^3.5.31",
+		"vue-router": "^4.6.4"
+	},
+	"packageManager": "pnpm@10.30.3",
+	"devDependencies": {
+		"tw-animate-css": "^1.4.0"
+	}
 }
